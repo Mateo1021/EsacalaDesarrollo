@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    </head>
+    <body>
+
+
+        <input type="button" onclick="mostrarInfo()" value="test">
+        <div id="preguntasCont">
+            <input type="text" name="pregunta" id="pregunta" style="width: 500px;">
+        </div>
+        <div id="valorCont">
+            <input type="text" name="valor" id="valor">
+        </div>
+        <div id="Respuestas">
+        <input type="button" onclick="respuesta(true)" value="Si">
+        <input type="button" onclick="respuesta(false)" value="No">
+        </div>
+        <div id="enviar">
+            <input type="button" onclick="enviar()" value="Enviar">
+        </div>
+
+
+    </body>
+    <script src="capturaDatos.js"></script>
+</html>
